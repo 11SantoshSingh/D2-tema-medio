@@ -1,0 +1,108 @@
+/* Reset Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #050404;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 48%; /* Adjust the width as needed */
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #788f99;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('pexe.jpg');
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background: #2a353a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1, header p {
+    font-family: fantasy;
+    margin-bottom: 20px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #849bb3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: px;
+}
+
+.btn:hover {
+    background: #274667;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+#logo-img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    font-family: "Sofia", sans-serif;
+}
+
+navbar-brand {
+    font-family: "Sofia", sans-serif;
+}

@@ -1,0 +1,87 @@
+.forgot-password,
+.sign-in {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #0b0b0c; /* Link color */
+    text-decoration: none;
+    list-style-type: none; /* Reset default styling */
+}
+
+.forgot-password:hover,
+.sign-in:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pexe.jpg');
+}
+
+/* Login Container Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pexe.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; 
+    /* Center the background image */
+}
+
+/* Login Form Styles */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(120, 126, 126);
+
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0c0d0e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #070808;
+}
